@@ -50,7 +50,7 @@ class list{
 			node*temp=head;
 			int pos,i;
 			node*prev=NULL;
-			cout<<"enter the position to delete  ";
+			cout<<"enter the position of delete  ";
 			cin>>pos;
 			for(i=1;i<pos;i++)
 			{
@@ -143,7 +143,7 @@ for(i=0;i<length;i++)
 			ll.update();
 			ll.print();
 			default :
-				cout<<"enter the valid option  ";
+				cout<<"enter the valid number  ";
 	}
 }
 	return 0;
